@@ -117,6 +117,13 @@ Add the gem to your *Gemfile*:
 
     gem 'rails-api'
 
+`rails-api` uses latest release of Rails.(which is right now Rails 4).
+If you want to use `rails-api` with Rails 3, then add
+
+    gem 'rails', '3.2.13'
+
+also to Gemfile.
+
 And run `bundle` to install the gem.
 
 Change *app/controllers/application_controller.rb*:
